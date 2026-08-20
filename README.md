@@ -21,7 +21,7 @@
 
 ---
 
-## 📌 Sobre A Saavedra
+## 📌 Sobre a Saavedra
 
 A **Saavedra** atua no desenvolvimento, manutenção e suporte de ecossistemas web e soluções integradas. Nosso foco é oferecer alta performance, estabilidade e segurança tanto para operações de tecnologia quanto para gestão na área de saúde.
 
@@ -31,30 +31,32 @@ A **Saavedra** atua no desenvolvimento, manutenção e suporte de ecossistemas w
 
 ---
 
-## 📂 Nossos Repositórios & Projetos
+## 📂 Repositórios Ativos
 
-Confira alguns dos principais projetos e repositórios mantidos por nossa equipe:
+Abaixo estão os principais projetos e sistemas do ecossistema Saavedra:
 
-| Repositório | Descrição | Link Direto |
-| :--- | :--- | :--- |
-| 🗂️ **suporte.saav** | Repositório de suporte e recursos internos da Saavedra Web. | [Acessar Repositório](https://github.com/suportesaav-web/suporte.saav) |
-| 💻 **Ver Todos os Repositórios** | Explore a lista completa de projetos públicos da Saavedra. | [Ver Todos os Repos](https://github.com/suportesaav-web?tab=repositories) |
+| Repositório | Visibilidade | Linguagem / Descrição | Link Direto |
+| :--- | :---: | :--- | :--- |
+| 🏷️ **Enterprise_qr_gen** | `Público` | Python — Gerador de QR Codes corporativos | [Acessar](https://github.com/suportesaav-web/Enterprise_qr_gen) |
+| 📄 **mesclador-pdf** | `Público` | Python — Utilitário para mesclagem e manipulação de arquivos PDF | [Acessar](https://github.com/suportesaav-web/mesclador-pdf) |
+| 💳 **portal_despesas_saavedra** | `Público` | Portal de gestão e controle de despesas corporativas | [Acessar](https://github.com/suportesaav-web/portal_despesas_saavedra) |
+| 🎫 **saavedra_chamados** | `Privado` | HTML — Sistema de atendimento e gerenciamento de chamados | *(Acesso restrito)* |
+| ⚡ **The-Nehemizer** | `Público` | Python — Ferramenta de automação (Fork) | [Acessar](https://github.com/suportesaav-web/The-Nehemizer) |
+| 🌐 **suportesaav-web** | `Público` | Repositório especial de configuração do perfil institucional | [Acessar](https://github.com/suportesaav-web/suportesaav-web) |
 
-> 💡 *Dica: Você também pode fixar até 6 repositórios de destaque clicando em **"Customize your pins"** na aba **Overview** do seu perfil.*
+> 💡 *Para ver a lista completa e atualizada em tempo real, acesse a aba [Todos os Repositórios](https://github.com/suportesaav-web?tab=repositories).*
 
 ---
 
 ## 🛠️ Tecnologias & Ferramentas
 
 <div align="left">
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
   <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5" />
-  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" />
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
-  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" />
-  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" />
-  <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black" />
-  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3" />
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" />
+  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
+  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
 </div>
 
 ---
