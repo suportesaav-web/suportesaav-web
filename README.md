@@ -1,7 +1,7 @@
-# <div align="center">
+<div align="center">
 
-  <!-- BANNER / CABEÇALHO -->
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0052CC&height=220&section=header&text=Saavedra%20Web%20%26%20Sa%C3%BAde&fontSize=38&animation=fadeIn&fontColor=ffffff" width="100%" alt="Saavedra Web Banner" />
+  <!-- BANNER / CABEÇALHO (Corrigido sem o caractere & na URL) -->
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0052CC&height=220&section=header&text=Saavedra%20Web%20e%20Saude&fontSize=38&animation=fadeIn&fontColor=ffffff" width="100%" alt="Saavedra Web Banner" />
 
   <h3>🚀 Soluções Tecnológicas, Suporte Web e Inovação em Saúde</h3>
 
@@ -64,7 +64,7 @@ Abaixo estão os principais projetos e sistemas do ecossistema Saavedra:
 ## 📊 Estatísticas do GitHub
 
 <div align="center">
-  <img height="165em" src="https://github-readme-stats.vercel.app/api?username=suportesaav-web&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true" alt="Estatísticas do GitHub" />
+  <img height="165em" src="https://github-readme-stats.vercel.app/api?username=suportesaav-web&show_icons=true&theme=tokyonight" alt="Estatísticas do GitHub" />
   <img height="165em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=suportesaav-web&layout=compact&theme=tokyonight" alt="Linguagens Mais Usadas" />
 </div>
 
