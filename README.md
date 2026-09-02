@@ -1,6 +1,6 @@
 <div align="center">
 
-  <!-- BANNER / CABEÇALHO (Corrigido sem o caractere & na URL) -->
+  <!-- BANNER / CABEÇALHO -->
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0052CC&height=220&section=header&text=Saavedra%20Web%20e%20Saude&fontSize=38&animation=fadeIn&fontColor=ffffff" width="100%" alt="Saavedra Web Banner" />
 
   <h3>🚀 Soluções Tecnológicas, Suporte Web e Inovação em Saúde</h3>
@@ -33,16 +33,17 @@ A **Saavedra** atua no desenvolvimento, manutenção e suporte de ecossistemas w
 
 ## 📂 Repositórios Ativos
 
-Abaixo estão os principais projetos e sistemas do ecossistema Saavedra:
+Abaixo estão os projetos e sistemas do ecossistema Saavedra:
 
 | Repositório | Visibilidade | Linguagem / Descrição | Link Direto |
 | :--- | :---: | :--- | :--- |
 | 🏷️ **Enterprise_qr_gen** | `Público` | Python — Gerador de QR Codes corporativos | [Acessar](https://github.com/suportesaav-web/Enterprise_qr_gen) |
 | 📄 **mesclador-pdf** | `Público` | Python — Utilitário para mesclagem e manipulação de arquivos PDF | [Acessar](https://github.com/suportesaav-web/mesclador-pdf) |
 | 💳 **portal_despesas_saavedra** | `Público` | Portal de gestão e controle de despesas corporativas | [Acessar](https://github.com/suportesaav-web/portal_despesas_saavedra) |
-| 🎫 **saavedra_chamados** | `Privado` | HTML — Sistema de atendimento e gerenciamento de chamados | *(Acesso restrito)* |
-| ⚡ **The-Nehemizer** | `Público` | Python — Ferramenta de automação (Fork) | [Acessar](https://github.com/suportesaav-web/The-Nehemizer) |
+| ⚡ **The-Nehemizer** | `Público` | Python — Ferramenta de automação e utilitários | [Acessar](https://github.com/suportesaav-web/The-Nehemizer) |
 | 🌐 **suportesaav-web** | `Público` | Repositório especial de configuração do perfil institucional | [Acessar](https://github.com/suportesaav-web/suportesaav-web) |
+| 📊 **saavedra_chamados** | `Público` | Sistema de gerenciamento e acompanhamento de chamados | [Acessar](https://github.com/suportesaav-web/saavedra_chamados) |
+| ⚙️ **saavedra-utils** | `Público` | Scripts auxiliares e ferramentas de suporte interno | [Acessar](https://github.com/suportesaav-web/saavedra-utils) |
 
 > 💡 *Para ver a lista completa e atualizada em tempo real, acesse a aba [Todos os Repositórios](https://github.com/suportesaav-web?tab=repositories).*
 
