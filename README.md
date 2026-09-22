@@ -1,381 +1,671 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0B1F3A&height=230&section=header&text=SAAVEDRA%20%7C%20SISTEMAS%20INTERNOS&fontSize=38&fontColor=ffffff&animation=fadeIn" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0B1F3A&height=240&section=header&text=SAAVEDRA%20DIGITAL&fontSize=48&fontColor=ffffff&animation=fadeIn" width="100%" />
 
-# 🏢 Ecossistema de Sistemas Saavedra
+# 🏢 SAAVEDRA DIGITAL
 
-### Tecnologia aplicada à operação, gestão e inteligência do negócio
-
-<p>
-  <img src="https://img.shields.io/badge/Sistemas%20Internos-Corporativo-0B1F3A?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Web-Applications-2563EB?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Data%20%26%20BI-Analytics-059669?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Automation-Process-7C3AED?style=for-the-badge" />
-</p>
+### Ecossistema de Sistemas e Inteligência Operacional
 
 <p>
-  <strong>Central de documentação e apresentação das soluções tecnológicas desenvolvidas para a Saavedra.</strong>
+  <img src="https://img.shields.io/badge/Sistemas%20Corporativos-0B1F3A?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Automação-7C3AED?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Data%20%26%20BI-059669?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Integrações-2563EB?style=for-the-badge" />
 </p>
+
+**Tecnologia aplicada à operação, gestão, produtividade e inteligência do negócio.**
 
 </div>
 
 ---
 
-## 🎯 Sobre este Ecossistema
+# 🚀 Sobre o Projeto
 
-O **Ecossistema de Sistemas Saavedra** reúne aplicações desenvolvidas para apoiar processos internos, operações administrativas, suporte técnico, gestão financeira, análise de dados e automação.
+O **Saavedra Digital** é o ecossistema de sistemas internos desenvolvido para apoiar a operação da **Saavedra Tecnologia em Saúde**.
 
-As soluções são projetadas com foco em:
+O portfólio reúne aplicações web, ferramentas desktop, automações, soluções de dados, integrações com sistemas corporativos e projetos de governança.
 
-* ⚡ **Eficiência operacional**
-* 📊 **Gestão orientada por dados**
-* 🔐 **Controle e segurança**
-* 🤖 **Automação de processos**
-* 🧩 **Integração entre áreas**
-* 📈 **Escalabilidade**
-* 🏢 **Padronização dos processos internos**
+O objetivo é transformar necessidades reais do negócio em soluções digitais capazes de:
 
-Este repositório funciona como um **catálogo técnico e institucional** das principais soluções mantidas pela área de tecnologia.
-
----
-
-# 🧭 Sistemas Corporativos
-
-## 🎫 Saavedra Chamados
-
-**Sistema corporativo de gestão de chamados e suporte de TI.**
-
-Centraliza a abertura, triagem, atendimento, acompanhamento e encerramento de solicitações internas.
-
-### Principais recursos
-
-* 🎫 Abertura e acompanhamento de chamados
-* 👥 Gestão de usuários e permissões
-* 🧑‍💻 Filas e atribuição de técnicos
-* ⏱️ Controle de SLA
-* 📝 Histórico completo das atividades
-* 📎 Gestão de anexos
-* 🔒 Notas internas para equipe técnica
-* ⭐ Pesquisa de satisfação CSAT
-* 📊 Dashboard e indicadores de BI
-* 📑 Relatórios gerenciais
-* 🔍 Auditoria e rastreabilidade
-
-### Arquitetura
-
-```text
-┌─────────────────────┐
-│     USUÁRIO         │
-│ Solicitante/Técnico │
-└──────────┬──────────┘
-           │
-           ▼
-┌─────────────────────┐
-│    FRONTEND WEB     │
-│    HTML / CSS / JS  │
-└──────────┬──────────┘
-           │ HTTP / REST
-           ▼
-┌─────────────────────┐
-│     BACKEND API     │
-│ Python + FastAPI    │
-└──────────┬──────────┘
-           │
-           ▼
-┌─────────────────────┐
-│    SQL SERVER       │
-│ Dados / SLA / Logs  │
-└─────────────────────┘
-```
-
-**Tecnologias:** Python, FastAPI, SQLAlchemy, PyODBC, SQL Server, JavaScript e CSS.
-
-**Status:** 🟢 Sistema em evolução
-
-[**Acessar repositório →**](https://github.com/suportesaav-web/saavedra_chamados)
+* ⚡ reduzir trabalho manual;
+* 📊 transformar processos em dados;
+* 🔍 aumentar rastreabilidade;
+* 🤖 automatizar tarefas repetitivas;
+* 🔐 melhorar controle e governança;
+* 📈 apoiar decisões gerenciais;
+* 🧩 integrar diferentes áreas;
+* 🚀 criar uma base tecnológica própria para evolução.
 
 ---
 
-## 💰 Portal de Despesas
-
-**Plataforma corporativa para lançamento, validação e pagamento de despesas.**
-
-Substitui processos manuais e planilhas por uma esteira digital de prestação de contas.
-
-### Principais recursos
-
-* 🔐 Autenticação de usuários
-* 📝 Lançamento de despesas
-* 📎 Upload de comprovantes
-* 📊 Dashboard de indicadores
-* ✅ Validação técnica
-* 💳 Aprovação e liquidação financeira
-* 👥 Gestão de colaboradores
-* 📈 Relatórios
-* 📤 Exportação para CSV/Excel
-* 🔑 Controle de permissões por função
-
-### Fluxo operacional
-
-```mermaid
-flowchart LR
-    A[Colaborador] --> B[Lança Despesa]
-    B --> C[Validação Técnica]
-    C --> D{Aprovada?}
-    D -->|Não| E[Reprovada]
-    D -->|Sim| F[Financeiro]
-    F --> G[Pagamento]
-    G --> H[Concluída]
-```
-
-**Tecnologias:** React, Vite, Supabase, PostgreSQL, Supabase Auth e Storage.
-
-**Status:** 🟡 Em desenvolvimento
-
-[**Acessar repositório →**](https://github.com/suportesaav-web/portal_despesas_saavedra)
-
----
-
-## 📊 The BI Extractor
-
-**Plataforma de tratamento, normalização e análise de dados provenientes do Power BI.**
-
-Transforma dados brutos e hierárquicos em informações estruturadas para análise e integração com ferramentas de BI.
-
-### Principais recursos
-
-* 📥 Importação de Excel e CSV
-* 🧹 Higienização automática dos dados
-* 🔄 Normalização para formato tabular
-* 📊 Mini-BI executivo
-* 📈 Indicadores de desempenho
-* 🏆 Rankings e comparativos
-* 📑 Geração de Excel profissional
-* 📤 CSV preparado para Looker Studio
-* 📉 Visualizações interativas
-
-### Fluxo
-
-```text
-DADOS BRUTOS
-     │
-     ▼
-┌───────────────┐
-│   IMPORTAÇÃO  │
-└───────┬───────┘
-        ▼
-┌───────────────┐
-│ HIGIENIZAÇÃO  │
-└───────┬───────┘
-        ▼
-┌───────────────┐
-│ NORMALIZAÇÃO  │
-└───────┬───────┘
-        ▼
-┌───────────────┐
-│     MINI-BI   │
-└───────┬───────┘
-        ▼
-┌────────────────────┐
-│ EXCEL / CSV / BI   │
-└────────────────────┘
-```
-
-**Tecnologias:** Python, Streamlit, Pandas, Openpyxl e Plotly.
-
-**Status:** 🟢 Operacional
-
-[**Acessar repositório →**](https://github.com/suportesaav-web/the-bi-extractor)
-
----
-
-## 🔲 Enterprise QR Gen
-
-**Aplicação corporativa para geração padronizada de QR Codes institucionais.**
-
-Desenvolvida para geração individual e em lote, com suporte a identidade visual corporativa.
-
-### Principais recursos
-
-* 🔗 Geração de QR Codes
-* 🖼️ Inserção de logotipo
-* 📦 Geração em massa
-* 📋 Cópia direta para clipboard
-* 🛡️ Alta correção de erros
-* 💻 Execução local/offline
-* 🪟 Aplicação desktop Windows
-* 🧪 Testes automatizados
-
-**Tecnologias:** Python, CustomTkinter, PIL, Pytest e PyInstaller.
-
-**Status:** 🟢 Estável
-
-[**Acessar repositório →**](https://github.com/suportesaav-web/Enterprise_qr_gen)
-
----
-
-## 📄 Mesclador PDF
-
-**Ferramenta interna para manipulação e consolidação de documentos PDF.**
-
-Voltada para automatizar tarefas recorrentes relacionadas à preparação e organização de documentos.
-
-**Tecnologia principal:** Python.
-
-**Status:** 🟢 Operacional
-
-[**Acessar repositório →**](https://github.com/suportesaav-web/mesclador-pdf)
-
----
-
-## ⚙️ The-Nehemizer
-
-**Coleção de automações e ferramentas internas para suporte às operações.**
-
-Projeto destinado à centralização de utilitários e automações desenvolvidos para reduzir atividades manuais e aumentar a produtividade.
-
-**Tecnologia principal:** Python.
-
-[**Acessar repositório →**](https://github.com/suportesaav-web/The-Nehemizer)
-
----
-
-# 🏗️ Arquitetura do Ecossistema
-
-As soluções utilizam diferentes arquiteturas de acordo com a finalidade de cada sistema.
+# 🧭 O Ecossistema
 
 ```mermaid
 flowchart TB
 
-    U[👤 Usuários]
+    A["🏢 SAAVEDRA DIGITAL"]
 
-    U --> WEB[🌐 Sistemas Web]
-    U --> DESK[💻 Aplicações Desktop]
-    U --> DATA[📊 Sistemas de Dados]
+    A --> B["🎫 OPERAÇÃO"]
+    A --> C["📊 DADOS & BI"]
+    A --> D["⚙️ AUTOMAÇÃO"]
+    A --> E["🔍 GOVERNANÇA"]
+    A --> F["🏢 COMERCIAL"]
 
-    WEB --> CH[🎫 Saavedra Chamados]
-    WEB --> DESP[💰 Portal de Despesas]
+    B --> B1["Saavedra Chamados"]
+    B --> B2["SAAV Expenses"]
 
-    DATA --> BI[📊 BI Extractor]
+    C --> C1["The BI Extractor"]
+    C --> C2["Comercial Saavedra"]
+    C --> C3["Saav Comercial"]
 
-    DESK --> QR[🔲 Enterprise QR Gen]
-    DESK --> PDF[📄 Ferramentas PDF]
+    D --> D1["The Nehemizer"]
+    D --> D2["Mesclador PDF"]
+    D --> D3["Enterprise QR Gen"]
+    D --> D4["IMG_py"]
 
-    CH --> SQL[(SQL Server)]
-    DESP --> SUP[(Supabase / PostgreSQL)]
-    BI --> FILES[(Excel / CSV)]
+    E --> E1["Saav Dashboard"]
+    E --> E2["Catálogo & Documentação"]
+
+    F --> F1["Comercial Saavedra"]
+    F --> F2["Saav Comercial"]
 ```
 
 ---
 
-# 🧩 Stack Tecnológica
+# 📚 Portfólio
 
-<div align="center">
+## 🎫 Saavedra Chamados
+
+### Gestão Corporativa de Serviços de TI
+
+Sistema para abertura, triagem, atendimento, acompanhamento e encerramento das demandas de TI.
+
+**O que mudou:**
+
+Antes, o trabalho da TI tinha pouca capacidade de mensuração estruturada.
+
+Agora, cada demanda pode ser registrada e acompanhada através de um processo formal.
+
+### Recursos
+
+* abertura de chamados;
+* prioridades;
+* filas;
+* técnicos;
+* SLA;
+* histórico;
+* anexos;
+* notas internas;
+* timeline;
+* Kanban;
+* causa raiz;
+* CSAT;
+* indicadores.
+
+### Momento atual
+
+🟢 **Sistema pronto e funcional**
+
+A próxima etapa é a **implantação corporativa**, incluindo apresentação do sistema, treinamento dos usuários e construção de aderência ao novo processo.
+
+**[→ Ver repositório](https://github.com/suportesaav-web/saavedra_chamados)**
+
+---
+
+# ⚙️ The Nehemizer
+
+## Case de Automação Operacional
+
+O **The Nehemizer** é um dos principais cases do ecossistema.
+
+### Antes
+
+O processo de organização e equalização da planilha demandava aproximadamente:
+
+**1 turno e meio de trabalho.**
+
+### Hoje
+
+Com a automação:
+
+**≈ 30 minutos.**
+
+```text
+PROCESSO MANUAL
+≈ 1,5 turno
+       │
+       ▼
+   AUTOMATIZAÇÃO
+       │
+       ▼
+PROCESSO ATUAL
+≈ 30 minutos
+```
+
+A solução automatiza o processamento de relatórios de vendas, contratos, propostas e tabelas de preços, permitindo validação e geração do relatório final.
+
+### O que esse case demonstra?
+
+Que tecnologia pode ser utilizada para identificar atividades operacionais de alto esforço e transformá-las em processos automatizados.
+
+**[→ Ver repositório](https://github.com/suportesaav-web/The-Nehemizer)**
+
+---
+
+# 📊 Saav Dashboard
+
+## Governança dos Dashboards Sankhya
+
+Projeto dedicado à análise técnica e racionalização dos dashboards utilizados no ERP Sankhya.
+
+O projeto mantém um inventário de:
+
+* **137 dashboards ativos**
+* **23 componentes classificados como OFF**
+
+### Integração
+
+Atualmente existe conexão com a **API do Sankhya**, permitindo testar queries diretamente e validar o funcionamento dos dashboards.
+
+```text
+DASHBOARD
+    │
+    ▼
+METADADOS
+    │
+    ▼
+QUERY
+    │
+    ▼
+API SANKHYA
+    │
+    ▼
+TESTE / VALIDAÇÃO
+    │
+    ▼
+ANÁLISE
+```
+
+### Objetivo
+
+Identificar:
+
+* dashboards duplicados;
+* informações redundantes;
+* queries semelhantes;
+* problemas de funcionamento;
+* oportunidades de otimização;
+* possibilidades de consolidação.
+
+O objetivo final é construir um ambiente de BI mais organizado, consistente e governado.
+
+**[→ Ver repositório](https://github.com/suportesaav-web/saav-dashboard)**
+
+---
+
+# 📈 Comercial Saavedra
+
+## BI e Inteligência Comercial
+
+Plataforma para transformar dados do CRM Ploomes em informações para acompanhamento da operação comercial.
+
+### Dados analisados
+
+* vendedores;
+* clientes;
+* atividades;
+* tarefas;
+* produtividade;
+* atrasos;
+* oportunidades;
+* visitas;
+* cobertura comercial.
+
+### Arquitetura
+
+```text
+PLOOMES CRM
+     │
+     ▼
+API
+     │
+     ▼
+ETL
+     │
+     ▼
+DADOS TRATADOS
+     │
+     ▼
+BI
+     │
+     ▼
+GESTÃO COMERCIAL
+```
+
+A solução cria uma camada de engenharia de dados entre o CRM e os indicadores utilizados pela gestão.
+
+**[→ Ver repositório](https://github.com/suportesaav-web/comercial-saavedra)**
+
+---
+
+# 📊 The BI Extractor
+
+## Engenharia de Dados e Normalização
+
+Ferramenta criada para transformar dados brutos, planilhas e estruturas provenientes de BI em dados organizados para análise.
+
+### Pipeline
+
+```text
+ARQUIVOS / IMAGENS
+        ↓
+EXTRAÇÃO
+        ↓
+NORMALIZAÇÃO
+        ↓
+VALIDAÇÃO
+        ↓
+ANÁLISE
+        ↓
+EXCEL / CSV / BI
+```
+
+### Tecnologias
+
+* Python
+* Streamlit
+* Pandas
+* OpenPyXL
+* Plotly
+* Google Gemini Vision
+
+**[→ Ver repositório](https://github.com/suportesaav-web/the-bi-extractor)**
+
+---
+
+# 💰 SAAV Expenses
+
+## Gestão Digital de Despesas
+
+Sistema corporativo para lançamento, validação, auditoria e pagamento de despesas.
+
+### Recursos
+
+* autenticação;
+* lançamento;
+* comprovantes;
+* câmera;
+* OCR;
+* PWA;
+* modo offline;
+* sincronização;
+* aprovação;
+* políticas de reembolso;
+* auditoria;
+* relatórios.
+
+```text
+VENDEDOR
+   ↓
+DESPESA
+   ↓
+COMPROVANTE
+   ↓
+VALIDAÇÃO
+   ↓
+FINANCEIRO
+   ↓
+LIQUIDAÇÃO
+```
+
+**[→ Ver repositório](https://github.com/suportesaav-web/portal_despesas_saavedra)**
+
+---
+
+# 🔲 Enterprise QR Gen
+
+## Geração Corporativa de QR Codes
+
+Ferramenta desktop para geração padronizada de QR Codes.
+
+### Recursos
+
+* geração individual;
+* geração em lote;
+* logo;
+* alta correção de erros;
+* clipboard;
+* processamento offline;
+* Windows.
+
+**[→ Ver repositório](https://github.com/suportesaav-web/Enterprise_qr_gen)**
+
+---
+
+# 📄 Mesclador PDF
+
+## Automação de Documentos
+
+Ferramenta para organização e consolidação de documentos PDF.
+
+### Recursos
+
+* drag & drop;
+* múltiplos arquivos;
+* ordenação;
+* contagem de páginas;
+* processamento em segundo plano;
+* barra de progresso;
+* proteção contra sobrescrita.
+
+**[→ Ver repositório](https://github.com/suportesaav-web/mesclador-pdf)**
+
+---
+
+# 🖼️ IMG_py
+
+## Padronização Visual de Ambientes
+
+Utilitário para criação de ícones e identificadores visuais padronizados.
+
+### Ambientes
+
+`DEV` · `HML` · `PRD` · `TEST` · `ADMIN` · `BETA` · `LOCAL`
+
+### Recursos
+
+* geração de canvas;
+* badges;
+* textos;
+* processamento em lote;
+* PNG;
+* ICO;
+* múltiplas resoluções.
+
+**[→ Ver repositório](https://github.com/suportesaav-web/IMG_py)**
+
+---
+
+# 🌐 Saav Comercial
+
+## Plataforma Web Comercial
+
+Aplicação web baseada em Next.js e TypeScript para evolução da gestão comercial.
+
+### Tecnologias
+
+* Next.js
+* TypeScript
+* Tailwind CSS
+* SWR
+* Zustand
+
+### Visão
+
+A plataforma representa uma evolução da camada comercial para uma experiência web mais integrada, conectando dados do CRM, atividades, vendedores, clientes e indicadores.
+
+**[→ Ver repositório](https://github.com/suportesaav-web/saav-comercial)**
+
+---
+
+# 📌 Casos de Transformação
+
+## 01 — Automação
+
+### The Nehemizer
+
+```text
+≈ 1,5 turno
+       ↓
+AUTOMAÇÃO
+       ↓
+≈ 30 minutos
+```
+
+---
+
+## 02 — Gestão de TI
+
+### Saavedra Chamados
+
+```text
+DEMANDAS NÃO ESTRUTURADAS
+          ↓
+SISTEMA DE CHAMADOS
+          ↓
+HISTÓRICO + SLA + RESPONSÁVEIS
+          ↓
+INDICADORES DE TI
+```
+
+---
+
+## 03 — Governança de BI
+
+### Saav Dashboard
+
+```text
+137 DASHBOARDS
+       ↓
+ANÁLISE TÉCNICA
+       ↓
+TESTES VIA API
+       ↓
+IDENTIFICAÇÃO DE REDUNDÂNCIAS
+       ↓
+CONSOLIDAÇÃO / PADRONIZAÇÃO
+```
+
+---
+
+# 🧠 Da Automação à Inteligência
+
+A evolução do ecossistema pode ser representada em três níveis:
+
+```text
+┌─────────────────────────────────────┐
+│             INTELIGÊNCIA            │
+│                                     │
+│       Indicadores / BI / Gestão     │
+└──────────────────▲──────────────────┘
+                   │
+┌──────────────────┴──────────────────┐
+│               DADOS                 │
+│                                     │
+│       Integração / ETL / APIs       │
+└──────────────────▲──────────────────┘
+                   │
+┌──────────────────┴──────────────────┐
+│             AUTOMAÇÃO               │
+│                                     │
+│     Sistemas / Processos / Apps     │
+└─────────────────────────────────────┘
+```
+
+O objetivo é criar um ciclo contínuo:
+
+**Problema → Sistema → Dados → Indicadores → Governança → Melhoria**
+
+---
+
+# 🏗️ Arquitetura Tecnológica
+
+O ecossistema utiliza diferentes tecnologias conforme a necessidade de cada solução.
 
 ### Backend & Dados
 
-<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
-<img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" />
-<img src="https://img.shields.io/badge/SQL%20Server-CC2927?style=for-the-badge&logo=microsoftsqlserver&logoColor=white" />
-<img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" />
+* Python
+* FastAPI
+* Pandas
+* SQL Server
+* PostgreSQL
+* Supabase
+* Apache Parquet
 
 ### Frontend
 
-<img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
-<img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" />
-<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
-<img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black" />
+* HTML
+* CSS
+* JavaScript
+* React
+* Next.js
+* TypeScript
+* Tailwind CSS
 
-### Cloud & Ferramentas
+### BI & Analytics
 
-<img src="https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white" />
-<img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white" />
-<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />
-<img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
+* Streamlit
+* Plotly
+* Power BI
+* Looker Studio
+* Sankhya
+* Ploomes
 
-</div>
+### Automação & Inteligência
 
----
-
-# 🔐 Segurança e Governança
-
-Os sistemas corporativos são desenvolvidos considerando princípios de segurança, controle de acesso e rastreabilidade.
-
-Entre os recursos utilizados conforme a aplicação:
-
-* 🔑 Autenticação
-* 👥 Controle de permissões
-* 🔒 Hash seguro de credenciais
-* 🛡️ Controle de acesso por perfil
-* 📝 Logs e auditoria
-* 🗃️ Integridade de dados
-* 🔐 Proteção de informações corporativas
-* 📎 Controle de documentos e anexos
-
-> **Importante:** informações, credenciais, chaves de API, senhas e configurações sensíveis não devem ser armazenadas diretamente no código-fonte ou no repositório.
+* APIs
+* OCR
+* Google Gemini
+* processamento de PDF
+* processamento de Excel/CSV
+* ETL
 
 ---
 
-# 📈 Visão de Evolução
+# 🔗 Integrações
 
-O ecossistema está estruturado para evoluir progressivamente de ferramentas isoladas para uma plataforma integrada de sistemas corporativos.
+O ecossistema já trabalha com diferentes fontes e plataformas:
 
 ```text
-                    ┌─────────────────────┐
-                    │   OPERAÇÃO SAAVEDRA │
-                    └──────────┬──────────┘
-                               │
-              ┌────────────────┼────────────────┐
-              │                │                │
-              ▼                ▼                ▼
-        ┌──────────┐     ┌──────────┐     ┌──────────┐
-        │ SUPORTE  │     │ FINANCEIRO│    │   BI     │
-        │   TI     │     │ DESPESAS │     │ DADOS    │
-        └────┬─────┘     └────┬─────┘     └────┬─────┘
-             │                │                │
-             └────────────────┼────────────────┘
-                              ▼
-                    ┌─────────────────────┐
-                    │ INTELIGÊNCIA        │
-                    │ OPERACIONAL         │
-                    └─────────────────────┘
+                    ┌─────────────┐
+                    │   SANKHYA   │
+                    └──────┬──────┘
+                           │ API
+                           ▼
+                    ┌─────────────┐
+                    │    SAAV     │
+                    │ DASHBOARD   │
+                    └─────────────┘
+
+
+                    ┌─────────────┐
+                    │   PLOOMES   │
+                    └──────┬──────┘
+                           │ API
+                           ▼
+                    ┌─────────────┐
+                    │  COMERCIAL  │
+                    │   SAAVEDRA  │
+                    └─────────────┘
 ```
 
-### Próximas possibilidades
+---
 
-* 🔗 Integração entre sistemas
-* 📊 Centralização de indicadores
-* 🔐 Single Sign-On
-* 🧑‍💼 Gestão centralizada de usuários
-* 🔄 Integração via APIs
-* 📱 Interfaces responsivas
-* 🤖 Ampliação das automações
-* 📈 Evolução dos dashboards executivos
+# 📊 Visão do Portfólio
+
+| Projeto               | Área           | Finalidade          | Situação                   |
+| --------------------- | -------------- | ------------------- | -------------------------- |
+| 🎫 Saavedra Chamados  | TI             | Gestão de serviços  | 🟢 Funcional / implantação |
+| ⚙️ The Nehemizer      | Operação       | Automação           | 🟢 Case                    |
+| 🔍 Saav Dashboard     | BI             | Governança Sankhya  | 🟡 Evolução                |
+| 📈 Comercial Saavedra | Comercial      | BI / CRM            | 🟢 Evolução                |
+| 📊 BI Extractor       | Dados          | ETL / BI            | 🟢 Operacional             |
+| 💰 SAAV Expenses      | Financeiro     | Gestão de despesas  | 🟡 Evolução                |
+| 🔲 Enterprise QR Gen  | TI             | QR Codes            | 🟢 Estável                 |
+| 📄 Mesclador PDF      | Administrativo | Documentos          | 🟢 Operacional             |
+| 🖼️ IMG_py            | TI             | Padronização visual | 🟢 Operacional             |
+| 🌐 Saav Comercial     | Comercial      | Plataforma Web      | 🟡 Evolução                |
 
 ---
 
-# 📚 Repositórios
+# 📈 Indicadores do Ecossistema
 
-| Sistema                   | Finalidade                     | Tecnologia                    | Status |
-| ------------------------- | ------------------------------ | ----------------------------- | :----: |
-| 🎫 **Saavedra Chamados**  | Gestão de suporte e chamados   | Python / FastAPI / SQL Server |   🟢   |
-| 💰 **Portal de Despesas** | Gestão e aprovação de despesas | React / Supabase              |   🟡   |
-| 📊 **BI Extractor**       | Tratamento e análise de dados  | Python / Streamlit            |   🟢   |
-| 🔲 **Enterprise QR Gen**  | Geração de QR Codes            | Python / CustomTkinter        |   🟢   |
-| 📄 **Mesclador PDF**      | Automação de documentos        | Python                        |   🟢   |
-| ⚙️ **The-Nehemizer**      | Automações e utilitários       | Python                        |   🟢   |
+### 10+
+
+**projetos e soluções catalogados**
+
+### 137
+
+**dashboards Sankhya ativos catalogados**
+
+### 23
+
+**componentes classificados como OFF**
+
+### 2
+
+**principais plataformas corporativas integradas**
+
+**Sankhya + Ploomes**
+
+### 4+
+
+**áreas de negócio atendidas**
+
+TI · Comercial · Financeiro · Operação
 
 ---
 
-# 🏢 Organização
+# 🎯 Próximos Passos
 
-**Saavedra Tecnologia em Saúde**
+A evolução do ecossistema pode seguir algumas linhas principais:
 
-Este ecossistema representa as iniciativas de tecnologia voltadas à digitalização, automação e melhoria contínua dos processos internos.
+### 01. Adoção
+
+Consolidar os sistemas já funcionais através de:
+
+* treinamento;
+* documentação;
+* comunicação;
+* acompanhamento de utilização;
+* coleta de feedback.
+
+### 02. Integração
+
+Conectar sistemas e fontes de dados para reduzir duplicidade de informações.
+
+### 03. Governança
+
+Criar padrões para:
+
+* desenvolvimento;
+* dados;
+* dashboards;
+* APIs;
+* segurança;
+* documentação.
+
+### 04. Inteligência
+
+Transformar os dados produzidos pelos sistemas em indicadores gerenciais.
+
+### 05. Automação
+
+Identificar novos processos que ainda dependem de:
+
+* planilhas;
+* conferências manuais;
+* copiar/colar;
+* consolidação de arquivos;
+* tarefas repetitivas.
+
+---
+
+# 🏢 Saavedra Tecnologia em Saúde
+
+Este repositório representa a iniciativa de construção de um ecossistema próprio de tecnologia para apoiar a operação da Saavedra.
+
+Mais do que desenvolver sistemas, o objetivo é criar uma estrutura tecnológica capaz de:
+
+**automatizar processos, organizar informações, gerar dados e apoiar a evolução do negócio.**
+
+---
 
 <div align="center">
 
-### Tecnologia a serviço da operação.
+## Tecnologia a serviço da operação.
+
+**SAAVEDRA DIGITAL**
 
 <br>
 
@@ -383,6 +673,6 @@ Este ecossistema representa as iniciativas de tecnologia voltadas à digitaliza�
 
 <br><br>
 
-<sub>© 2026 Saavedra — Sistemas Internos e Soluções Tecnológicas</sub>
+<sub>© 2026 Saavedra Tecnologia em Saúde</sub>
 
 </div>
