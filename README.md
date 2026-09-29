@@ -53,12 +53,13 @@ flowchart TB
 
     B --> B1["Saavedra Chamados"]
     B --> B2["SAAV Expenses"]
+    B --> B3["Agente Saav Sankhya"]
 
     C --> C1["The BI Extractor"]
     C --> C2["Comercial Saavedra"]
     C --> C3["Saav Comercial"]
 
-    D --> D1["The Nehemizer"]
+    D --> D1["Saav-Dados-BD"]
     D --> D2["Mesclador PDF"]
     D --> D3["Enterprise QR Gen"]
     D --> D4["IMG_py"]
@@ -112,11 +113,11 @@ A próxima etapa é a **implantação corporativa**, incluindo apresentação do
 
 ---
 
-# ⚙️ The Nehemizer
+# ⚙️ Saav-Dados-BD
 
 ## Case de Automação Operacional
 
-O **The Nehemizer** é um dos principais cases do ecossistema.
+O **Saav-Dados-BD** é um dos principais cases do ecossistema.
 
 ### Antes
 
@@ -148,7 +149,7 @@ A solução automatiza o processamento de relatórios de vendas, contratos, prop
 
 Que tecnologia pode ser utilizada para identificar atividades operacionais de alto esforço e transformá-las em processos automatizados.
 
-**[→ Ver repositório](https://github.com/suportesaav-web/The-Nehemizer)**
+**[→ Ver repositório](https://github.com/suportesaav-web/Saav-Dados-BD)**
 
 ---
 
@@ -408,11 +409,25 @@ A plataforma representa uma evolução da camada comercial para uma experiência
 
 ---
 
+# 🤖 Agente Saav Sankhya
+
+## Integração TI
+
+Agente para automação e integração focado em TI.
+
+### Momento atual
+
+🟡 **Em evolução**
+
+**[→ Ver repositório](https://github.com/suportesaav-web/agente_saav_sankhya)**
+
+---
+
 # 📌 Casos de Transformação
 
 ## 01 — Automação
 
-### The Nehemizer
+### Saav-Dados-BD
 
 ```text
 ≈ 1,5 turno
@@ -566,7 +581,8 @@ O ecossistema já trabalha com diferentes fontes e plataformas:
 | Projeto               | Área           | Finalidade          | Situação                   |
 | --------------------- | -------------- | ------------------- | -------------------------- |
 | 🎫 Saavedra Chamados  | TI             | Gestão de serviços  | 🟢 Funcional / implantação |
-| ⚙️ The Nehemizer      | Operação       | Automação           | 🟢 Case                    |
+| 🤖 Agente Saav Sankhya| TI             | Integração          | 🟡 Evolução                |
+| ⚙️ Saav-Dados-BD      | Operação       | Automação           | 🟢 Case                    |
 | 🔍 Saav Dashboard     | BI             | Governança Sankhya  | 🟡 Evolução                |
 | 📈 Comercial Saavedra | Comercial      | BI / CRM            | 🟢 Evolução                |
 | 📊 BI Extractor       | Dados          | ETL / BI            | 🟢 Operacional             |
